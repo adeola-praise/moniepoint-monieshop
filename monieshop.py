@@ -120,12 +120,24 @@ def analyticsSoftware():
     
     metric = input("What metric do you want to get?: ")
     
-    if metric == "2":
+    if metric == "1":
+        print("Unfortunately, I couldn't write the code for getting you this metric. So sorry, I'll do better next time")
+    elif metric == "2":
         transactionDay = input("Please enter the transaction day in the format '2025-11-08: ")
         result = highestSalesValueForaDay(path, transactionDay)
         print (f"The highest sales value for the transaction day '{transactionDay}' is: {result}")
-    if metric == "4":
+    elif metric == "3":
+        print("Unfortunately, I couldn't write the code for getting you this metric. So sorry, I'll do better next time")
+    elif metric == "4":
         result = highestSalesStaffIdPerMonth(path)
         print(f"The Highest sales staff ID for each month is: {result}")
+    elif metric == "5":
+        print("Unfortunately, I couldn't write the code for getting you this metric. So sorry, I'll do better next time")
+    else:
+        print("Metric not available!")
+        print("This software can get you the following metrics\n:1.Highest Sales Volume in a Day\n2.Highest Sales value in a day\n3.Most Sold Product ID by Volume\n4.Highest Sales Staff ID For Each Month\n5.Highest Hour of the Day By Average Transaction Volume")
+    
+        print("To get any of this metrics using this software, just input the number attached to the metric/nFor example: If you want to get the Most Sold Product ID by volume of your trasaction dat, input 3")
+        
 
 analyticsSoftware()
