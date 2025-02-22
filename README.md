@@ -9,6 +9,7 @@ This software can get you the following metrics
 4.Highest Sales Staff ID For Each Month
 5.Highest Hour of the Day By Average Transaction Volume
     
-To get any of this metrics using this software, just input the number attached to the metric/nFor example: If you want to get the Most Sold Product ID by volume of your trasaction dat, input 3
+To get any of this metrics using this software, just input the number attached to the metric
+For example: If you want to get the Most Sold Product ID by volume of your trasaction dat, input 3
     
 To go back to the main menu after getting a metric, input 'Main Menu'
